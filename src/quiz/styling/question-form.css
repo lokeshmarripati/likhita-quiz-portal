@@ -1,0 +1,93 @@
+.q {
+    background-image: url(a-dashboard.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.q .left {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.q .left h1, .q .left p {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.q .left img {
+    margin-left: 30%;
+}
+
+.q .left button{
+    background-image: linear-gradient(to right, black, rgb(53, 52, 52));
+    padding: 10px;
+    box-shadow: 1px 1px 3px yellow;
+    color: yellow;
+    margin-left: 35%;
+    margin-bottom: 40%;
+    font-size: 14px;
+}
+
+.q .right form {
+    font-size: 18px;
+}
+
+.q .right form button{
+    background-image: linear-gradient(to right, black, rgb(53, 52, 52));
+    padding: 10px;
+    box-shadow: 1px 1px 3px yellow;
+    color: yellow;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.q .left button:hover, .q .right form button:hover {
+    background-image: linear-gradient(to right, yellow, rgb(246, 187, 50));
+    color: black;
+    box-shadow: 1px 1px 2px black;
+}
+
+.q-form {
+    padding-left: 50%;
+}
+
+.q .right h2 {
+    padding-top: 4%;
+    padding-left: 30%;
+    font-style: oblique;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px 3px yellow;    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.q-form {
+    box-shadow: 1px 1px 4px black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 20%;
+    margin-left: 45%;  
+    margin-top: 5%;  
+}
+
+.q-form label {
+    font-size: 20px;
+    color: black;
+}
+
+.q-form label select, .q-form label input {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.q-form button {
+    background-image: linear-gradient(to right, black, rgb(43, 43, 43));
+    padding: 5px;
+    color: yellow;
+    margin-left: 70%;
+}
+
+.q-form button:hover {
+    background-image: linear-gradient(to right, rgb(43, 43, 43), black);
+}

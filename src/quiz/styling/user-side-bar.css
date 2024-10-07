@@ -1,0 +1,45 @@
+.u-side-bar {
+    float: left;
+    width: 20%;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, orange, yellow);
+}
+
+.u-side-bar h1, .u-side-bar p {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.u-side-bar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10%;
+}
+
+.u-side-bar img:hover  {
+    transform: scale(1.2);
+}
+
+.u-side-bar button {
+    margin-bottom: 55%;
+    padding: 10px;
+    width: 65px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, orange, yellow);
+}
+
+.u-side-bar button p {
+    color: black;
+}
+
+.u-side-bar button:hover{
+    background-image: linear-gradient(to bottom, black, rgb(41, 41, 41));
+    transform: scale(1.1);
+    color: yellow
+}

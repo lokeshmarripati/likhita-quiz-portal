@@ -1,0 +1,36 @@
+/* .tech {
+    width: 60%;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20%;
+    padding-top: 15%;
+} */
+
+.tech h2 {
+    color: white;
+    text-shadow: 2px 2px 4px purple;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tech p {
+    font-size: 18px;
+}
+
+.tech ul p button {
+    padding: 5px;
+    width: 100%;
+    color: white;
+    flex: 1 1 calc(40% - 20px);
+    font-size: 18px;
+    background-image: linear-gradient(to right, orange, yellow);
+}
+
+.tech ul p button:hover {
+    color: white;
+    background-image: linear-gradient(to right, black, rgb(37, 36, 36));
+}
+

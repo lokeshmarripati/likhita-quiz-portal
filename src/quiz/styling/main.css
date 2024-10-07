@@ -1,0 +1,64 @@
+
+.main-page{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(251, 176, 38), rgb(238, 238, 3));
+    background-image: url('main-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-page .head p {
+    background-color: black;
+    width: 100%;
+
+}
+
+.main-page .head p h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-style: oblique;
+    margin-top: 6%;
+    padding: 10px;
+    color: black;
+    position: absolute;
+    animation: move-head 4s linear infinite;
+}
+
+@keyframes move-head {
+    0% {right:5%;}
+    100% {right: calc(70% - 10px);}
+}
+
+.main-page img {
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.main-page img:hover {
+    transform: scale(1.1);
+}
+
+.main-page .right {
+    float: left;
+    margin-top: 24%;
+    margin-left: 12%;
+}
+
+.main-page .right p {
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px;
+}
+
+.main-page .right button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px white;
+    font-size: 18px;
+}
+
+.main-page .right button:hover {
+    transform: scale(1.1);
+}

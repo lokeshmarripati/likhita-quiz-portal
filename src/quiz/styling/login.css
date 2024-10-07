@@ -1,0 +1,66 @@
+.login {
+    /* background-color: rgb(30, 30, 30); */
+    background-image: url('login-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.login .l-right {
+    float: right;
+    margin-right: 30%;
+    margin-top: 7%;
+    width: 30%;
+    font-size: 18px;
+}
+
+.login .l-right form {
+    box-shadow: 3px 3px 5px rgb(244, 244, 129);
+    width: 80%;
+    margin-left: -5%;
+    padding: 20px;
+}
+
+.login .l-right form input {
+    width: 95%;
+}
+
+.login h2 {
+    text-align: center;
+    font-style: oblique;
+    color: rgb(255, 208, 0);
+    font-size: 40px;
+    margin-left: -20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login label {
+    color: rgb(255, 208, 0);
+    padding: 5px;
+    font-weight: bold;
+}
+
+.login label input {
+    display: block;
+    padding: 5px;
+}
+
+.login p {
+    color: black;
+    padding-left: 25%;
+}
+
+.login button {
+    background-image: linear-gradient(to right, black, rgb(49, 49, 49));
+    color: rgb(255, 208, 0);
+    padding: 10px;
+    margin-left: 80px;
+    font-size: 18px;
+    box-shadow: 1px 1px 2px white;
+    border-radius: 5px;
+}
+
+.login button:hover {
+    background-image: linear-gradient(to right, orange, rgb(255, 208, 0));
+    color: black;
+    box-shadow: 1px 1px 2px black;
+}

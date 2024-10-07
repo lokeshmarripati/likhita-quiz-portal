@@ -1,0 +1,583 @@
+{
+  "admin": [
+    {
+      "id": "289f",
+      "name": "Naina",
+      "email": "naina@gmail.com",
+      "password": "naina",
+      "imageUrl": "http://localhost:3000/admin/demon.jpeg"
+    },
+    {
+      "id": "f27e",
+      "name": "Pari",
+      "email": "pari@gmail.com",
+      "password": "pari",
+      "imageUrl": "http://localhost:3000/admin/darkness.jpeg"
+    }
+  ],
+  "users": [
+    {
+      "id": "3335",
+      "name": "Rudr",
+      "email": "rudr@gmail.com",
+      "password": "rudr",
+      "imageUrl": "http://localhost:3000/users/tree.jpeg",
+      "score": [],
+      "scores": [
+        {
+          "technology": "HTML",
+          "score": 11,
+          "totalQuestions": 15
+        }
+      ]
+    },
+    {
+      "id": "d0ce",
+      "name": "Satya",
+      "email": "satya@gmail.com",
+      "password": "satya",
+      "imageUrl": "http://localhost:3000/users/single-moon.jpeg",
+      "score": [],
+      "scores": [
+        {
+          "technology": "CSS",
+          "score": 13,
+          "totalQuestions": 15
+        }
+      ]
+    },
+    {
+      "id": "ea50",
+      "name": "Naaz",
+      "email": "naaz@gmail.com",
+      "password": "naaz",
+      "imageUrl": "http://localhost:3000/users/bday.jpeg",
+      "score": [],
+      "scores": [
+        {
+          "technology": "React",
+          "score": 12,
+          "totalQuestions": 15
+        }
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "id": "1",
+      "name": "HTML",
+      "image": "http://localhost:3000/techs/html.png"
+    },
+    {
+      "id": "2",
+      "name": "CSS",
+      "image": "http://localhost:3000/techs/css.png"
+    },
+    {
+      "id": "3",
+      "name": "JS",
+      "image": "http://localhost:3000/techs/js.png"
+    },
+    {
+      "id": "4",
+      "name": "React",
+      "image": "http://localhost:3000/techs/react.png"
+    }
+  ],
+  "questions": [
+    {
+      "id": "5d1a",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "Which HTML tag is used to create the largest heading?",
+          "options": [
+            "<h6>",
+            "<heading>",
+            "<h1>",
+            "<header>"
+          ],
+          "answer": "<h1>"
+        },
+        {
+          "question": "Which of the following is a self closing tag in HTML?",
+          "options": [
+            "<div>",
+            "<span>",
+            "<img>",
+            "<p>"
+          ],
+          "answer": "<img>"
+        },
+        {
+          "question": "Which attribute is used to provide a unique identifier for an HTML element?",
+          "options": [
+            "class",
+            "id",
+            "name",
+            "key"
+          ],
+          "answer": "id"
+        },
+        {
+          "question": "Which tag is used to define a table row in HTML?",
+          "options": [
+            "<table>",
+            "<tr>",
+            "<th>",
+            "<td>"
+          ],
+          "answer": "<tr>"
+        },
+        {
+          "question": "Which HTML attribute is used to define inline style?",
+          "options": [
+            "style",
+            "css",
+            "link",
+            "script"
+          ],
+          "answer": "style"
+        },
+        {
+          "question": "what is the correct HTML tag for inserting a line break?",
+          "options": [
+            "<br>",
+            "<lb>",
+            "<break>",
+            "<hr>"
+          ],
+          "answer": "<br>"
+        },
+        {
+          "question": "Which tag is used to create a dropdown list in HTML?",
+          "options": [
+            "<input>",
+            "<select>",
+            "<dropdown>",
+            "<list>"
+          ],
+          "answer": "<select>"
+        },
+        {
+          "question": "Which element is used to group form controls in HTML?",
+          "options": [
+            "<group>",
+            "<div>",
+            "<fieldset>",
+            "<section>"
+          ],
+          "answer": "<fieldset>"
+        },
+        {
+          "question": "What is the correct way to create an email link in HTML?",
+          "options": [
+            "<a href=\"mail to: example@example.com\">Email</a>",
+            "<a href=\"email to: example@example.com\">Email</a>",
+            "<a href=\"mail to:// example@example.com\">Email</a>",
+            "<a mail to= \"example@example.com\">Email</a>"
+          ],
+          "answer": "<a href=\"mail to: example@example.com\">Email</a>"
+        },
+        {
+          "question": "Which tag is used to embed a video file in HTML5?",
+          "options": [
+            "<video>",
+            "<media>",
+            "<embed>",
+            "<movie>"
+          ],
+          "answer": "<video>"
+        },
+        {
+          "question": "How can you create a checkbox in an HTML form?",
+          "options": [
+            "<input type=\"checkbox\">",
+            "<checkbox>",
+            "<input type=\"check\">",
+            "<input type=\"tickbox\">"
+          ],
+          "answer": "<input type=\"checkbox\">"
+        },
+        {
+          "question": "Which attribute is used in forms to ensure a field is filled out before submitting?",
+          "options": [
+            "required",
+            "placeholder",
+            "validate",
+            "autofill"
+          ],
+          "answer": "required"
+        },
+        {
+          "question": "What is the correct HTML element for playing audio files?",
+          "options": [
+            "<audio>",
+            "<sound>",
+            "<music>",
+            "<play>"
+          ],
+          "answer": "<audio>"
+        },
+        {
+          "question": "Which HTML element is used to define emphasized text?",
+          "options": [
+            "<b>",
+            "<i>",
+            "<strong>",
+            "<em>"
+          ],
+          "answer": "<em>"
+        },
+        {
+          "question": "Which of the following tags is used to create a definition list in HTML?",
+          "options": [
+            "<dl>",
+            "<dt>",
+            "<dd>",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        }
+      ]
+    },
+    {
+      "id": "b3cb",
+      "technology": "CSS",
+      "questions": [
+        {
+          "question": "Which property is used to change the background color of an element?",
+          "options": [
+            "color",
+            "background-color",
+            "bg-color",
+            "background"
+          ],
+          "answer": "background-color"
+        },
+        {
+          "question": "How do you make the text bold in CSS?",
+          "options": [
+            "font-style: bold;",
+            "font-weight: bold;",
+            "text-weight: bold;",
+            "font-bold: true;"
+          ],
+          "answer": "font-weight: bold;"
+        },
+        {
+          "question": "Which property is used to change the text color of an element?",
+          "options": [
+            "text-color",
+            "font-color",
+            "color",
+            "background-color"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "How do you apply padding to all four sides of an element?",
+          "options": [
+            "padding: top right bottom left;",
+            "padding: 10px;",
+            "padding-all: 10px;",
+            "padding-sides: 10px;"
+          ],
+          "answer": "padding: 10px;"
+        },
+        {
+          "question": "What is the default value of the position property in CSS?",
+          "options": [
+            "static",
+            "relative",
+            "absolute",
+            "fixed"
+          ],
+          "answer": "static"
+        },
+        {
+          "question": "Which property is used to change the font of an element?",
+          "options": [
+            "font-family",
+            "font-weight",
+            "font-style",
+            "text-family"
+          ],
+          "answer": "font-family"
+        },
+        {
+          "question": "Which CSS property controls the space between lines of text?",
+          "options": [
+            "letter-spacing",
+            "line-height",
+            "word-spacing",
+            "text-indent"
+          ],
+          "answer": "line-height"
+        },
+        {
+          "question": "How can you center a block element horizontally?",
+          "options": [
+            "text-align: center;",
+            "margin-left: center;",
+            "display: center;",
+            "margin-left: auto; margin-right: auto;"
+          ],
+          "answer": "margin-left: auto; margin-right: auto;"
+        },
+        {
+          "question": "Which property is used to make an element invisible without removing it from the document flow?",
+          "options": [
+            "opacity: 0;",
+            "visibility: hidden;",
+            "display: none;",
+            "overflow: hidden;"
+          ],
+          "answer": "visibility: hidden;"
+        },
+        {
+          "question": "How do you select an element with the ID \"header\" in CSS?",
+          "options": [
+            ".header",
+            "#header",
+            "header",
+            "*header"
+          ],
+          "answer": "#header"
+        },
+        {
+          "question": "Which CSS property is used to create space between the element's border and its content?",
+          "options": [
+            "margin",
+            "border-spacing",
+            "padding",
+            "spacing"
+          ],
+          "answer": "padding"
+        },
+        {
+          "question": "How can you add a shadow effect to a text in CSS?",
+          "options": [
+            "text-outline",
+            "text-transform",
+            "text-shadow",
+            "font-shadow"
+          ],
+          "answer": "text-shadow"
+        },
+        {
+          "question": "Which CSS property is used to change the list style of a list?",
+          "options": [
+            "list-type",
+            "list-style-type",
+            "list",
+            "list-style-position"
+          ],
+          "answer": "list-style-type"
+        },
+        {
+          "question": "Which property is used to control the order of stacked elements?",
+          "options": [
+            "order",
+            "z-index",
+            "stack-order",
+            "display-order"
+          ],
+          "answer": "z-index"
+        },
+        {
+          "question": "How do you make a rounded corner for an element in CSS?",
+          "options": [
+            "corner-radius",
+            "border-radius",
+            "radius",
+            "round-corner"
+          ],
+          "answer": "border-radius"
+        }
+      ]
+    },
+    {
+      "id": "6ftd",
+      "technology": "JS",
+      "questions": [
+        {
+          "question": "Which of the following is not a JavaScript data type?",
+          "options": [
+            "String",
+            "Boolean",
+            "Float",
+            "Number"
+          ],
+          "answer": "Float"
+        },
+        {
+          "question": "How do you write a comment in JavaScript?",
+          "options": [
+            "# This is a comment",
+            "/* This is a comment */",
+            "<!-- This is a comment -->",
+            "// This is a comment"
+          ],
+          "answer": "// This is a comment"
+        }
+      ]
+    },
+    {
+      "id": "7a82",
+      "technology": "React",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React?",
+          "options": [
+            "To develop mobile apps",
+            "To manage the database",
+            "To build user interfaces",
+            "To create server-side applications"
+          ],
+          "answer": "To build user interfaces"
+        },
+        {
+          "question": "Which method in a React component is used to change its state?",
+          "options": [
+            "this.modifystate()",
+            "this.changeState()",
+            "this.setState()",
+            "this.updateState()"
+          ],
+          "answer": "this.setState()"
+        },
+        {
+          "question": "What does JSX stand for?",
+          "options": [
+            "JavaScript Syntax Extension",
+            "JavaScript Extra",
+            "JSON Syntax Extension",
+            "JavaScript XML"
+          ],
+          "answer": "JavaScript XML"
+        },
+        {
+          "question": "How do you create a functional component in React?",
+          "options": [
+            "function Component() {return <div></div>: }",
+            "component function() {return <div></div>: }",
+            "class component extends React.Component() {render () {return <div></div>: }}",
+            "function Component() extends React.Componnet {return <div></div>: }"
+          ],
+          "answer": "function Component() {return <div></div>: }"
+        },
+        {
+          "question": "What is the virtual DOM in React?",
+          "options": [
+            "A copy of the browser's DOM",
+            "A light weight copy of the real DOM that React manipulates",
+            "A separate document object model for mobile apps",
+            "A real-time DOM updater for the Server"
+          ],
+          "answer": "A light weight copy of the real DOM that React manipulates"
+        },
+        {
+          "question": "How can you pass data from a parent component to a child component in React?",
+          "options": [
+            "using props",
+            "using state",
+            "using hooks",
+            "using context"
+          ],
+          "answer": "using props"
+        },
+        {
+          "question": "Which Hook is used to manage state in functional components?",
+          "options": [
+            "useEffect",
+            "useState",
+            "useContext",
+            "useReducer"
+          ],
+          "answer": "useState"
+        },
+        {
+          "question": "What is the purpose of the useEffect hook in React?",
+          "options": [
+            "To manage component functional components",
+            "To manage side effects in functional components",
+            "To update the state of a component",
+            "To handle event binding"
+          ],
+          "answer": "To manage side effects in functional components"
+        },
+        {
+          "question": "What will happen if setstate() is called in React?",
+          "options": [
+            "The component will re-render",
+            "The component will unmount",
+            "The state will be mutated directly",
+            "The DOM will be directly updated"
+          ],
+          "answer": "The component will re-render"
+        },
+        {
+          "question": "How can you conditionally render an element in React?",
+          "options": [
+            "using if statements in JSX",
+            "using ternary operators or logical operators in JSX",
+            "using for loops in JSX",
+            "React does not support conditional rendering"
+          ],
+          "answer": "using ternary operators or logical operators in JSX"
+        },
+        {
+          "question": "Which of the following is true about React Components?",
+          "options": [
+            "They must always be class-based",
+            "They must return a single element",
+            "They must have state",
+            "They cannot accept props"
+          ],
+          "answer": "They must return a single element"
+        },
+        {
+          "question": "What is a key prop in React and why is it important?",
+          "options": [
+            "It is a prop passed to children for data exchange",
+            "It is used to uniquely identify elements in lists",
+            "It is required to handle events",
+            "It is used for animation purposes"
+          ],
+          "answer": "It is used to uniquely identify elements in lists"
+        },
+        {
+          "question": "Which hook is used to create a reference to a DOM element in React?",
+          "options": [
+            "useRef",
+            "useDOM",
+            "useEffect",
+            "useContext"
+          ],
+          "answer": "useRef"
+        },
+        {
+          "question": "How can you update a state based on the previous state in React?",
+          "options": [
+            "By passing a function to setState()",
+            "By passing the current state directly to setState()",
+            "By modifying the state object directly",
+            "By using this.state = newState"
+          ],
+          "answer": "By passing a function to setState()"
+        },
+        {
+          "question": "Which of the following true regarding React fragments (<></>) in JSX?",
+          "options": [
+            "They are used to return multiple elements without adding extra nodes to the DOM",
+            "They add a div around every returned element",
+            "They can contain only one child element",
+            "They are used for performance optimization"
+          ],
+          "answer": "They are used to return multiple elements without adding extra nodes to the DOM"
+        }
+      ]
+    }
+  ]
+}

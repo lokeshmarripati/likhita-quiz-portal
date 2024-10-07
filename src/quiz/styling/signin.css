@@ -1,0 +1,74 @@
+.signin {
+    margin-top: 5%;
+}
+
+.signin img {
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.signin h2 {
+    font-style: oblique;
+    color: blue;
+    font-size: 40px;
+    padding-left: 5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.signin .s-right {
+    float: right;
+    border: 1px solid black;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.signin .s-right form {
+    margin: 10px;
+    background-image: linear-gradient(to right, rgb(113, 203, 233), rgb(49, 49, 247));
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.signin label {
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.signin label input {
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.signin .s-right label .input {
+    width: 90%;
+}
+
+.signin label .role {
+    display: flex;
+}
+
+.signin p {
+    color: white;
+    /* margin-left: 10%; */
+    text-align: center;
+}
+
+.signin button {
+    color: white;
+    background-color: rgba(250,250,250,0.1);
+    box-shadow: 1px 1px 2px black;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 45%;
+
+}
+
+.signin button:hover {
+    background-image: linear-gradient(to right, rgb(49, 49, 247), rgb(113, 203, 233));
+}
