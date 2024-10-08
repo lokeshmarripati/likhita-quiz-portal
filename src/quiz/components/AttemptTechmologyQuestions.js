@@ -12,6 +12,8 @@ const AttemptTechnologyQuestions = () => {
     const [answers, setAnswers] = useState([]);
     const [score, setScore] = useState(null);
     const navigate = useNavigate();
+    const location= useLocation();
+    const user = location.state.user;
 
     useEffect(() => {
         const fetchQuestions = async () => {
@@ -100,7 +102,7 @@ const AttemptTechnologyQuestions = () => {
 
                 <div className='score-r'>
                     <h2>Your Score: {score} / {questions.length}</h2>
-                    <button onClick={()=>navigate('/login')}>Return</button>
+                    <button onClick={()=>navigate('/user',{state:{user}})}>Return</button>
                 </div>
 
                 {/* <div className='btn'>

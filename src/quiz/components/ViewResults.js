@@ -8,7 +8,8 @@ import results from '../assets/results.png'
 const ViewResults = () => {
     const [users, setUsers] = useState([]);
     const navigate = useNavigate();
-
+    const location= useLocation();
+    const admin = location.state.admin;
     useEffect(() => {
         const fetchUsers = async () => {
             try {
@@ -90,7 +91,7 @@ const ViewResults = () => {
             )}
                        
 
-            <button className='btn' onClick={() => navigate('/login')}>
+            <button className='btn' onClick={() => navigate('/admin',{state:{admin}})}>
                 GoBack
                 </button>
             </div>
